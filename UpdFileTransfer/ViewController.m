@@ -11,6 +11,8 @@
 #import "SendViewController.h"
 #import "ReceiveViewController.h"
 #import "ChooseDeviceViewController.h"
+#import "UIImage+TPCategory.h"
+#import "UIColor+TPCategory.h"
 #define ksendBtnTag 100
 #define krecevieBtnTag 200
 @interface ViewController ()<SheetItemViewDelegate>
@@ -22,13 +24,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.backBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:nil];
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                                     [UIColor whiteColor], UITextAttributeTextColor,
+                                                                     [UIFont fontWithName:@"Arial-Bold" size:20.0], UITextAttributeFont,
+                                                                     nil]];
+    
+    //self.navigationItem.backBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:nil];
     
     self.sendBtn.layer.cornerRadius=5.0;
     self.sendBtn.layer.masksToBounds=YES;
+    [self.sendBtn setBackgroundImage:[UIImage createImageWithColor:UIColorMakeRGB(48, 181, 237)] forState:UIControlStateNormal];
     
     self.receiveBtn.layer.cornerRadius=5.0;
     self.receiveBtn.layer.masksToBounds=YES;
+    [self.receiveBtn setBackgroundImage:[UIImage createImageWithColor:UIColorMakeRGB(48, 181, 237)] forState:UIControlStateNormal];
     // Do any additional setup after loading the view, typically from a nib.
 }
 #pragma mark -SheetItemViewDelegate Methods

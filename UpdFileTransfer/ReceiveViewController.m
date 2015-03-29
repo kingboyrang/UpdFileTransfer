@@ -103,7 +103,7 @@
     UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell==nil) {
         cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
-         //cell.selectionStyle=UITableViewCellSelectionStyleNone;
+         cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     }
     cell.textLabel.font=[UIFont boldSystemFontOfSize:16];
     cell.detailTextLabel.font=[UIFont systemFontOfSize:14];

@@ -1,22 +1,22 @@
 //
-//  BasicViewController.m
+//  BasicTableViewController.m
 //  UpdFileTransfer
 //
-//  Created by rang on 15-3-28.
+//  Created by rang on 15-3-29.
 //  Copyright (c) 2015年 wulanzhou-mini. All rights reserved.
 //
 
-#import "BasicViewController.h"
+#import "BasicTableViewController.h"
 
-@interface BasicViewController ()
+@interface BasicTableViewController ()
 
 @end
 
-@implementation BasicViewController
+@implementation BasicTableViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)initWithStyle:(UITableViewStyle)style
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
     }
@@ -50,15 +50,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

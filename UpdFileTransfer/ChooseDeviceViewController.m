@@ -36,7 +36,7 @@
     UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame=CGRectMake(0, 0, 40, 30);
     [btn setTitle:@"完成" forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(buttonFinishedClick) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *rightBtn=[[UIBarButtonItem alloc] initWithCustomView:btn];
     self.navigationItem.rightBarButtonItem=rightBtn;

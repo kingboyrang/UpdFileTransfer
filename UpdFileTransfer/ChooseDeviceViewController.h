@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UdpServerManager.h"
-@interface ChooseDeviceViewController : UITableViewController{
+@interface ChooseDeviceViewController : BasicTableViewController{
     NSInteger _selectedIndex;
 }
 @property (nonatomic,strong) UdpServerManager *serverManger;
