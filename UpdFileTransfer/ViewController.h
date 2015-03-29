@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : BasicViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *sendBtn;
+@property (weak, nonatomic) IBOutlet UIButton *receiveBtn;
+- (IBAction)sendFileClick:(id)sender;
+- (IBAction)receiveFileClick:(id)sender;
 
 @end
 

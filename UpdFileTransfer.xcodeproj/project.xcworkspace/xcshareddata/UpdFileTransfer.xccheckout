@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EE05F1B1-D7D0-4688-B821-B0D010E1AA77</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UpdFileTransfer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE068C59-05EB-43E6-9777-27A413624CDD</key>
+		<string>https://github.com/kingboyrang/UpdFileTransfer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UpdFileTransfer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE068C59-05EB-43E6-9777-27A413624CDD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kingboyrang/UpdFileTransfer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE068C59-05EB-43E6-9777-27A413624CDD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE068C59-05EB-43E6-9777-27A413624CDD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UpdFileTransfer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

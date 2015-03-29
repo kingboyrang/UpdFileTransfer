@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  UpdFileTransfer
+//
+//  Created by rang on 15-3-28.
+//  Copyright (c) 2015年 wulanzhou-mini. All rights reserved.
+//
+
+#ifndef UpdFileTransfer_PrefixHeader_pch
+#define UpdFileTransfer_PrefixHeader_pch
+
+#import "BasicViewController.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef DEBUG
+#define CBLog(format, ...)   NSLog(format, ##__VA_ARGS__)
+#else
+#define CBLog(format, ...)  do{ }while(0)
+#endif
+
+#define po(obj)              CBLog(@"%@", obj)
+#define pi(var_i)            CBLog(@"%d", var_i)
+#define pf(var_f)            CBLog(@"%f", var_f)
+#define print_function()     CBLog(@"%s", __PRETTY_FUNCTION__)
+
+#define UPLOADSTART @"uploadstart"
+#define UPLOADING @"uploading"
+#define UPLOADEND @"uploadend"
+#define UPLOADISCONNECTED @"uploadisconnected"
+
+
+#endif
